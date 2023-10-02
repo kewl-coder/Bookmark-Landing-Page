@@ -352,7 +352,10 @@ details[open] summary::after {
 }
 
 .card {
-  max-width: 280px;
+  max-width: 300px;
+  max-width: 500px;
+  min-height: 350px;
+  
   text-align: center;
   padding: 25px;
   display: flex;
@@ -759,54 +762,54 @@ body.dark-mode #message {
 #git:hover{
 
   font-size: 50px;
-
+  color: rgb(0, 0, 0);
   border-radius: 50%;
 }
 #face:hover{
 
   font-size: 50px;
-
+  color: rgb(98, 147, 220);
   border-radius: 50%;
 }
 #tweet:hover{
 
   font-size: 50px;
-
+  color: rgb(73, 135, 186);
   border-radius: 50%;
 }
 #insta:hover{
 
   font-size: 50px;
- 
+  color: rgb(212, 62, 149);
   border-radius: 50%;
 }
 #link:hover{
 
   font-size: 50px;
-
+  color: rgb(101, 182, 244);
   border-radius: 50%;
 }
 #gits:hover{
 
   font-size: 50px;
-
+  color: rgb(0, 0, 0);
   border-radius: 50%;
 }
 #faces:hover{
 
   font-size: 50px;
-
+  color: rgb(60, 88, 187);
   border-radius: 50%;
 }
 #tweets:hover{
 
   font-size: 50px;
-
+color: rgb(60, 88, 187);
   border-radius: 50%;
 }
 #instas:hover{
 
   font-size: 50px;
- 
+ color: rgb(223, 45, 205);
   border-radius: 50%;
 }
