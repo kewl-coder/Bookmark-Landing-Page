@@ -12,9 +12,9 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
-  <body>
+  <body id="home">
 
-    <header class="navbar" style="text-align: center; padding:  20px; background: rgb(35, 91, 144); color: whitesmoke;">
+    <header class="navbar" style="text-align: center; padding:  20px; background: rgb(35, 91, 144); color: whitesmoke;" >
       <div class="toggle" style="margin-top: 25px; margin-right: 150px;">
         <input type="checkbox" name="" id="toggle">
         <label for="toggle">
@@ -50,21 +50,37 @@
 
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">Featuress</a>
-        <a href="#">Pricing</a>
-        <a href="#">Contact</a>
+        <a href="#features">Featuress</a>
+        <a href="#download">Extension</a>
+        <a href="#contact">Contact</a>
         <br>
      <a class="navigation__link btn btn--block btn--outline" href="#" style="color: rgb(255, 255, 255) !important; text-align: center;padding-bottom: 40px;">Login</a>
 <br>
-  <div style=" display: flex; justify-content: space-evenly;">
-    <a href="#"><img src="images/icon-facebook.svg" alt="Facebook Icon" class="img11"></a>
-    <a href="#"><img src="images/icon-twitter.svg" alt="Twitter Icon" class="img11"></a>
-  </div>
+<div class="social-media" style="display: flex; justify-content: space-evenly; font-size: 30px; ">
+
+  <a href="https://github.com/ankit071105/Bookmark-Landing-Page" class="social-icon" id="gits">
+    <i class="fa-brands fa-github" ></i>
+    </a>
+
+   
+
+  <a href="#" class="face" id="faces">
+    <i class="fa-brands fa-facebook" ></i>
+  </a>
+  <a href="" id="tweets">
+    <i class="fa-brands fa-twitter" ></i>
+  </a>
+  
+  <a href=" " class="insta" >
+    <i class="fa-brands fa-instagram" id="instas"></i>
+  </a>
+ 
+</div>
        
       </div>
       <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
 
-    </header>
+    </header >
     <div class="container">
         <main>
           <section class="intro section-padding">
@@ -97,7 +113,7 @@
             </script>
 =======
 
-          <section class="features">
+          <section class="features" id="features">
             <header class="features__header">
               <h2 class="heading--primary heading-level-beta">Features</h2>
               <p>
@@ -163,7 +179,7 @@
             </div>
           </section>
 
-          <section class="download">
+          <section class="download" id="download">
             <header class="download__header">
               <h2 class="download__heading heading--primary heading-level-beta">Download the extension</h2>
               <p>
@@ -193,7 +209,7 @@
             </div>
           </section>
 
-          <section class="questions">
+          <section class="questions" id="questions">
             <header class="questions__header">
               <h2 class="questions__title heading--primary heading-level-beta">
                 Frequently Asked Questions
@@ -246,7 +262,7 @@
         </main>
       </div>
 
-      <footer class="footer">
+      <footer class="footer"  id="contact">
         <section class="subscribe">
           <p class="subscribe__details">35,000+ already joined</p>
           <h2 class="subscribe__title heading-level-beta">Stay up-to-date with what we’re doing</h2>
@@ -258,7 +274,7 @@
               name="email"
               placeholder="Enter your email address"
             />
-            <button class="btn btn--red btn--block btn--noshadow" type="submit">Contact Us</button>
+            <button class="btn btn--red btn--block btn--noshadow" type="submit" >Contact Us</button>
           </form>
         </section>
         <div class="aboutUs">
@@ -284,18 +300,34 @@
             </svg>
           </a>
           <ul class="footer-nav">
-            <li class="footer-nav__item"><a href="#">Features</a></li>
-            <li class="footer-nav__item"><a href="#">Pricing</a></li>
-            <li class="footer-nav__item"><a href="#">Contact</a></li>
+            <li class="footer-nav__item"><a href="#home">Home</a></li>
+            <li class="footer-nav__item"><a href="#features">Features</a></li>
+            <li class="footer-nav__item"><a href="#download">Extension</a></li>
+            <li class="footer-nav__item"><a href="#questions">Questions</a></li>
+            <li class="footer-nav__item"><a href="#contact">Contact</a></li>
           </ul>
-          <ul class="footer__social">
-            <li>
-              <a href="#"><img src="images/icon-facebook.svg" alt="Facebook Icon"/></a>
-            </li>
-            <li>
-              <a href="#"><img src="images/icon-twitter.svg" alt="Twitter Icon"/></a>
-            </li>
-          </ul>
+          <div class="social-media" style="display: flex; justify-content: space-evenly; font-size: 30px; ">
+
+            <a href="https://github.com/ankit071105/Bookmark-Landing-Page" class="social-icon" id="git">
+              <i class="fa-brands fa-github" id="git"></i>
+              </a>
+
+             
+
+            <a href="#" class="face" id="face">
+              <i class="fa-brands fa-facebook" ></i>
+            </a>
+            <a href="" id="tweet">
+              <i class="fa-brands fa-twitter" ></i>
+            </a>
+            
+            <a href=" " class="insta" id="insta">
+              <i class="fa-brands fa-instagram" ></i>
+            </a>
+            <a href="# " class="linkedin"  id="link">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
         </div>
       </footer>
       <script src="js/scripts.js"></script>

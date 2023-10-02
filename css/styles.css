@@ -756,3 +756,57 @@ body.dark-mode #message {
   border: 5px solid rgb(17, 3, 3);
   color: whitesmoke;
 } 
+#git:hover{
+
+  font-size: 50px;
+
+  border-radius: 50%;
+}
+#face:hover{
+
+  font-size: 50px;
+
+  border-radius: 50%;
+}
+#tweet:hover{
+
+  font-size: 50px;
+
+  border-radius: 50%;
+}
+#insta:hover{
+
+  font-size: 50px;
+ 
+  border-radius: 50%;
+}
+#link:hover{
+
+  font-size: 50px;
+
+  border-radius: 50%;
+}
+#gits:hover{
+
+  font-size: 50px;
+
+  border-radius: 50%;
+}
+#faces:hover{
+
+  font-size: 50px;
+
+  border-radius: 50%;
+}
+#tweets:hover{
+
+  font-size: 50px;
+
+  border-radius: 50%;
+}
+#instas:hover{
+
+  font-size: 50px;
+ 
+  border-radius: 50%;
+}
