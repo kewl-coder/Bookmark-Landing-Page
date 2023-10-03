@@ -531,7 +531,9 @@ body {
   font-size: 36px;
   margin-left: 50px;
 }
-
+.sidenav:hover{
+  background-color: #010a13;
+}
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -812,4 +814,7 @@ color: rgb(60, 88, 187);
   font-size: 50px;
  color: rgb(223, 45, 205);
   border-radius: 50%;
+}
+#homes:hover{
+color: #336699;
 }
